@@ -1,0 +1,38 @@
+[
+    {
+        "artist": "G.E.M. 鄧紫棋",
+        "name": "City Zoo",
+        "head": "./sourse/GEM_head.png",
+        "image": "https://i.kfs.io/album/global/67268438,0v1/fit/500x500.jpg",
+        "uri": "https://www.kkbox.com/tw/tc/album/QmIPyWTtbDWJR0F40axM009H-index.html"
+
+    },
+    {
+        "artist": "Jolin Tsai 蔡依林",
+        "name": "Ugly Beauty",
+        "head": "./sourse/Jolin_head.png",
+        "image": "https://www.ziyamix.com/wp-content/uploads/jolin.jpg",
+        "uri": "https://www.kkbox.com/tw/tc/album/.SidyCFOgbhJ80F2d59p009H-index.html"        
+    },
+    {
+        "artist": "Jolin Tsai 蔡依林",
+        "name": "Play 世界巡迴演唱Live",
+        "head": "./sourse/Jolin_head.png",
+        "image": "https://i.kfs.io/album/global/31807520,0v1/fit/500x500.jpg",
+        "uri": "https://www.kkbox.com/tw/tc/album/NMb-8DaYUZMUp0F1tLWW009H-index.html"        
+    },
+    {
+        "artist": "aMEI 張惠妹",
+        "name": "偷故事的人",
+        "head": "./sourse/aMEI_head.png",
+        "image": "https://i.kfs.io/album/global/30794911,0v1/fit/500x500.jpg",
+        "uri": "https://www.kkbox.com/tw/tc/album/vtmnp30zMa87D0F1pUIV009H-index.html"         
+    },
+    {
+        "artist": "GoodBand 好樂團",
+        "name": "至少我想感同你的身受",
+        "head": "./sourse/Good_head.png",
+        "image": "https://i.kfs.io/album/global/57782987,0v1/fit/500x500.jpg",
+        "uri": "https://www.kkbox.com/tw/tc/album/ppnb.4EIB3vyu0F3SRBB009H-index.html"         
+    }   
+]
