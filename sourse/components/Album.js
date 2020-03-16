@@ -1,32 +1,35 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import AlbumData from '../Json/List.json';
+import AlbumData from "../json/Album.json";
 
 const Album = () => {
     return (
-        
-    <View style={styles.cardContainerStyle}>
-        <View style={styles.thumbnailContainerStyle}>
-          <Image
-            style={styles.thumbnailStyle}
-            source={ require ( AlbumData[0].head )
-            }
-          />
-          <View style={styles.headContentStyle}>
-            <Text style={styles.headFontStyle}> {AlbumData[0].artist} </Text>
-          </View>
-        </View>
+        <ScollView>
+            <View style={styles.cardContainerStyle}>
+                <View style={styles.thumbnailContainerStyle}>
+                    <Image
+                        style={styles.thumbnailStyle}
+                        source={ require ( AlbumData[0].head )
+                        }
+                    />
+                </View>
+                <View style={styles.headContentStyle}>
+                    <Text style={styles.headFontStyle}> {AlbumData[0].artist} </Text>
+                </View>
+            </View>
 
-        <View> 
+            <View> 
 
-            <Image
-            style={styles.imageStyle}
-            source={{uri : AlbumData[0].image
-            }}
-            />
-            <Text> {AlbumData[0].name} </Text>
-        </View>
-    </View>
+                <Image
+                style={styles.imageStyle}
+                source={{uri : AlbumData[0].image
+                }}
+                />
+                <Text> {AlbumData[0].name} </Text>
+            </View>
+           
+        </ScollView>
+    
     );
 };
 
