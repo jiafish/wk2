@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { ScrollView,StyleSheet, Text, View, Image } from 'react-native';
 import AlbumData from "../json/Album.json";
 
 const Album = () => {
     return (
-        <ScollView>
+        <ScrollView>
             <View style={styles.cardContainerStyle}>
                 <View style={styles.thumbnailContainerStyle}>
                     <Image
@@ -29,7 +29,7 @@ const Album = () => {
                 <Text> {AlbumData[0].name} </Text>
             </View>
            
-        </ScollView>
+        </ScrollView>
     
     );
 };
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
         width: 50
     },
     headContentStyle:{
-        flexDirection: "colum",
+        flexDirection: "column",
         justifyContent: "space-around",
         shadowColor: "#669999",
         shadowOpacity: 1,
