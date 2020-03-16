@@ -9,7 +9,8 @@ const Album = () => {
                 <View style={styles.thumbnailContainerStyle}>
                     <Image
                         style={styles.thumbnailStyle}
-                        source={ require ( AlbumData[0].head )
+                        source={ 
+                            {uri : AlbumData[0].head}
                         }
                     />
                 </View>
@@ -60,7 +61,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-around",
         shadowColor: "#669999",
         shadowOpacity: 1,
-        shadowOffset: { width= 0, height: 2},
+        shadowOffset: { width: 0, height: 2},
         shadowRadius: 0,
     },
     imageStyle:{
@@ -68,7 +69,7 @@ const styles = StyleSheet.create({
         width: null,
         shadowColor: "#cc4b4b",
         shadowOpacity: 0.2,
-        shadowOffset: { width= 2, height: 2},
+        shadowOffset: { width: 2, height: 2},
     },
     AlbumContentStyle:{
 
