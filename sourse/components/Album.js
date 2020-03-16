@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
         shadowRadius: 0,
     },
     imageStyle:{
-        height: 30,
+        height: 300,
         width: null,
         shadowColor: "#cc4b4b",
         shadowOpacity: 0.2,
