@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     thumbnailStyle:{
         height: 50,
         width: 50,
-       
+        resizeMode: "cover"
     },
     headContentStyle:{
         flexDirection: "column",
